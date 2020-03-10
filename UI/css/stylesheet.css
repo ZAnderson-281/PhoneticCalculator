@@ -1,0 +1,112 @@
+/*
+    GENERIC STYLING
+*/
+body {
+    background-color: lightblue;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr {
+    color:white;
+    border: 2px solid white;
+}
+
+input[type='text']{
+    height: 30px;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    
+    border: none;
+    border-radius: 5px ;
+    
+    color: white;
+    background-color: #49abd8;
+    
+    font-size: 16px;
+    text-decoration: none;
+
+    padding: 10px 20px;
+    margin:10px 10px;
+}
+
+/*
+    CLASS STYLING
+*/
+.main-container{
+    text-align: center; 
+}
+
+.text-box-entry {
+    padding-left: 1rem;
+    margin:10px 10px;
+}
+
+.output {
+    width: auto;
+    height:200px;
+}
+
+/* 
+    MEDIA QUERYS
+*/
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media(min-width: 768px) {
+    /* desktop */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+  /*/* The Modal (background) */
+.modal {
+    visibility: hidden;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 10px;
+    width: 100%; 
+    height: auto;
+}
+  
+  /* Modal Content/Box */
+.modal-content {
+  background-color: #dd4848;
+
+  color:white;
+
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #e47979;
+  width: 98%;
+}
+  
+/* The Close Button */
+.close {
+  color: whitesmoke;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+  color: lightgrey;
+  text-decoration: none;
+  cursor: pointer;
+}

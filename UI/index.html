@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Phonetic Calculator</title>
+        <link rel="stylesheet" href="./css/stylesheet.css">
+    </head>
+    <body>
+        <!-- Main Container -->
+        <div class="main-container col-12">
+            <!-- Form Section -->
+            <div class="user-num-input col-12 ">
+                <input type="text" class="text-box-entry col-3" id="numberInput" placeholder="Enter a number (123,456,789.00)">
+                <input type="button" class="button col-3" value="Get phonetic text">
+            </div>
+            <hr/>
+
+            <!-- Output Section -->
+            <div class="output">
+                <h2><span id="phoneticOutput"></span></h2>
+            </div>
+        </div>
+
+        <!-- ERROR MSG -->
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p><span id="err-msg"></span></p>
+            </div>
+        </div>
+
+        <!-- Javascript -->
+    </body>
+    <script type="module" src="./scripts/mainScript.js"></script>
+</html>
