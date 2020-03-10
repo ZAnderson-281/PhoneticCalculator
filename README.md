@@ -2,6 +2,8 @@
 
 This program takes in user input from the terminial or from a UI and converts valid input givin into strings.
 
+Note: The code for the UI must be ran on a server for it to run properly.   
+
 # UI 
 
 To use the user interface locate the insex.html script and it within a browser. A textbox and a button should appear. Within this textbox enter the desiered number to be converted and press the button labeled "Get phonetic text".
