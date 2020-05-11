@@ -6,7 +6,7 @@ Note: The code for the UI must be ran on a server for it to run properly.
 
 # UI 
 
-To use the user interface locate the insex.html script and it within a browser. A textbox and a button should appear. Within this textbox enter the desiered number to be converted and press the button labeled "Get phonetic text".
+To use the user interface locate the index.html script and it within a browser. A textbox and a button should appear. Within this textbox enter the desiered number to be converted and press the button labeled "Get phonetic text".
 
 # Terminal Support
 
